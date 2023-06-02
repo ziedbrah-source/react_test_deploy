@@ -2,7 +2,7 @@ server {
     listen 80;
     listen [::]:80;
 
-   server_name devsecops-gl4-2022-2023.top;
+   server_name portfolio.devsecops-gl4-2022-2023.top;
 
     location /.well-known/acme-challenge/ {
         root /var/www/certbot;
